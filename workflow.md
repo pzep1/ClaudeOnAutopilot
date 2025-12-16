@@ -14,6 +14,8 @@ the reason for spec kit is none other than its ability to define a project with 
 
 This sets up all your work in very small clearly defined tasks that should give claude enough context work with the issue -> branch -> PR flow.
 
+in your project route make a .claude/autonomous folder and in there place the three scripts. 
+
 if you use run.sh within your git directory (don't start claude), the scripts will run claude in the skip permissions setting and make sure that the commits, the pushes, the sleeps (to wait for PR reviews) the documentation updates and the context clearing happens. 
 
 I recommend setting up a discord bot that can collect alert webhooks as well. (the scripts are set up to send them)
