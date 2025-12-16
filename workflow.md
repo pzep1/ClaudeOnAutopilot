@@ -2,6 +2,8 @@ Make an oracle free tier for life account (https://www.oracle.com/uk/cloud/free/
 
 This will be your dev machine. Make sure you register for a free IPV4 address and set up an ssh key on your machine. disable username/password login.
 
+also recommend downloading the terminus app on your phone/tablet, running the key gen in terminus and adding that public key to your VM as well for ultimate portability 
+
 ssh to your new machine, install homebrew, install node, install claude, install git cli, install docker, install TMUX (CRUCIAL)
 
 ask claude to harden your instance - i run other services on my machine like my ssh jumpbox and some observability tools for some other work.
